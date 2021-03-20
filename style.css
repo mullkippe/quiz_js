@@ -1,0 +1,93 @@
+body {}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+/*ロゴタイトルを写真の中央に持ってくる*/
+.top-container {
+    position: relative;
+}
+.quiztitle {
+    position: absolute;
+    /*絶対配置*/
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+}
+
+/*スリックスライド画像*/
+
+.center-item {}
+
+.center-item img {
+    max-width: 100%;
+    height: 700px;
+    object-fit: cover;
+
+    border-left: 3px solid #fff;
+}
+/*次にくる震災のためにcss*/
+
+#hoge {
+    font-size: 30px;
+    color: #111;
+    letter-spacing: .1em;
+    margin-bottom: 10px;
+    font-weight: 600;
+
+}
+.sub-text{
+    font-size: 20px;
+    color: #575757;
+    text-align: justify;
+
+}
+
+/*早速やってみるボタン！*/
+.try {
+    text-align: center;
+}
+.btn-square {
+    display: inline-block;
+
+    padding: 20px 0;
+    text-decoration: none;
+    background: #ffec27;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    border: 1px solid #000;
+    border-radius: 100px;
+    width: 300px;
+    margin-bottom: 100px;
+    color: #111;
+
+/*
+
+    ボタン色
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+
+*/
+}
+.btn-square:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    /*下に動く*/
+    border-bottom: none;
+    /*線を消す*/
+
+}
+.btn-square:hover {
+    background-color: #111;
+    color: white;
+}
